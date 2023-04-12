@@ -8,5 +8,9 @@ function logger() {
 }
 
 
+logger "--> Start"
+
 echo "Hello, $1!"
+
+logger "--> End"
 
